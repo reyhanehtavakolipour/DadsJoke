@@ -1,5 +1,6 @@
 package com.example.dadjokes.framework.presentation.favouriteJokes.adapter
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -33,6 +34,7 @@ class FavouriteJokesAdapter (private val favouriteJokesCallback: FavouriteJokesC
         return FavouriteJokesViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.favourite_jokes_item_rv, parent, false))
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     override fun onBindViewHolder(holder: FavouriteJokesViewHolder, position: Int) {
         val item = favouriteJokes[position]
         holder.jokeTv.text = item.joke
