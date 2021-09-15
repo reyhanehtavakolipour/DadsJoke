@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/joke_nav"
+    app:startDestination="@id/randomJokeFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/randomJokeFragment"
+        android:name="com.example.dadjokes.framework.presentation.randomJoke.RandomJokeFragment"
+        android:label="fragment_random_joke"
+        tools:layout="@layout/fragment_random_joke" >
+        <action
+            android:id="@+id/action_randomJokeFragment_to_favouriteJokesFragment"
+            app:destination="@id/favouriteJokesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favouriteJokesFragment"
+        android:name="com.example.dadjokes.framework.presentation.favouriteJokes.FavouriteJokesFragment"
+        android:label="fragment_favourite_jokes"
+        tools:layout="@layout/fragment_favourite_jokes" />
+</navigation>

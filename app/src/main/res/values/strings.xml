@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">DadJokes</string>
+    <string name="answer_ok_dialog">Ok</string>
+    <string name="title_error_dialog">Error</string>
+    <string name="question_delete_favourite_joke">delete this joke from favourite list?</string>
+    <string name="sure">Are you sure?</string>
+    <string name="yes_dialog">Yes</string>
+    <string name="no_dialog">No</string>
+    <string name="search_label">Search here</string>
+    <string name="delete_label">Delete</string>
+    <string name="get_new_joke">get new joke!</string>
+    <string name="dad_joke_label">Dad\'s Joke</string>
+    <string name="added_to_favourite">added to favourites!</string>
+    <string name="remove_from_favourites" >removed from favourites</string>
+    <string name="favourites_label">Favourites</string>
+    <string name="no_content">No Content!</string>
+    <string name="share_social_media">Social media</string>
+    <string name="share_sms">SMS</string>
+    <string name="share">Share</string>
+    <string name="info_share">You can share the jokes by a long press and delete them by swipe left.</string>
+    <string name="title_info_dialog">Info</string>
+
 </resources>
